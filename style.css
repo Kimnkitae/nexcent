@@ -176,7 +176,173 @@
     padding: 15px 0;
 }
 
+/* ad */
 
+.ad__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+
+.ad__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ad__h2 {
+    color: #4D4D4D;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.ad__p {
+    color: #717171;
+}
+
+.ad__link {
+    background-color: #4CAF4F;
+    padding: 15px 25px;
+    border-radius: 3px;
+    width: 137px;
+    color: #FFF;
+}
+
+/* advantages */
+
+.advantages {
+    background-color: #F5F7FA;
+}
+
+.advantages__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.advantages__left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.advantages__h2 {
+    color: #4D4D4D;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.advantages__h2--green {
+    color: #4CAF4F;
+}
+
+
+.advantages__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}  
+
+.advantages__menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.advantages__menu-item--p {
+    color: #4D4D4D;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.advantages__menu-item--p2 {
+    color: #717171;
+    font-weight: 400;
+}
+
+/* learn */
+
+.learn__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+
+.learn__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.learn__h2 {
+    color: #4D4D4D;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.learn__p {
+    color: #717171;
+}
+
+.learn__link {
+    background-color: #4CAF4F;
+    padding: 15px 25px;
+    border-radius: 3px;
+    width: 137px;
+    color: #FFF;
+}
+
+/* tim */
+
+.tim__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.tim__right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tim__p {
+    color: #717171;
+}
+
+.tim__p2 {
+    color: #4CAF4F;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.tim__p3 {
+    color: #89939E;
+    font-weight: 300;
+}
+
+.customers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.customers__link-p {
+    color: #4CAF4F;
+}
+
+/* demo */
 
 /* footer */
 
